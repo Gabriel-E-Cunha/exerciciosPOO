@@ -1,0 +1,13 @@
+Classes genéricas são aquelas que vão se ramificar e dar origem a 
+diversas outras classes, como classe Animal por exemplo, que pode 
+dar origem a muitos outras classes (de animais) mais específicas.
+
+Classes especializadas são aquelas que surgiram de diversas 
+ramificações, compondo uma classe que não será mais divida, 
+como a classe Leão, que se originou de diversas ramificações, 
+tendo como raiz a classe Animal.
+
+Implementando a generalização será criar classes com comportamentos 
+e atributos genéricos e comuns entre diversas outras classes, e 
+implementar a especialização será o ato de fazer as classes mais 
+específicas, que se herdam as classes mais genéricas.

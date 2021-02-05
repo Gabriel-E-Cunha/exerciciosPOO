@@ -1,0 +1,11 @@
+Polimorfismo é quando, a partir de uma classe, surgem várias outras, dessa 
+forma uma classe tem várias formas. Como por exemplo quando temos a classe 
+Conta, que pode adquirir outras três formas, como ContaAgua, ContaLuz, ContaTelefone, 
+todas herdando Conta.
+
+A sobrecarga de métodos é quando uma classe mais específica vai sobrecarregar 
+um método que já existe em alguma das suas classes acima de sua hierarquia. 
+Como por exemplo, a Classe Animal possui o método comer, e a classe Leao irá 
+implementar esse mesmo método, mas de uma forma diferente, especificando que 
+o irá comer Carne, por exemplo, enquanto a classe Girafa irá sobrecarregar o 
+método para especificar que ela come plantas. 

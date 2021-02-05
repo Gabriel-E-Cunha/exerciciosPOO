@@ -1,0 +1,12 @@
+Uma classe é um modelo de algo no mundo real, que pode conter atributos, 
+comportamentos, herança de outras classes, etc.
+
+Um objeto é uma instância de uma classe, ou seja, em um análise metafórica, 
+é como se a classe fosse a planta de uma casa e o objeto é casa construída 
+com essa planta.
+
+O objeto é responsável por colocar os comportamentos e os atributos em prática.
+A classe é apenas um modelo que será seguido por várias instâncias feitas a partir dela.
+
+Exemplo de classes: Veiculo > Terrestre > Carro // Animal > Mamifero > Cachorro
+Exemplo de objetos: (instâncias de Carro) Corola, Uno, Tesla // (instâncias de Cachorro) Rex, Totó, Lulu, Mel
