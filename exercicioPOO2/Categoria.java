@@ -7,9 +7,9 @@ public enum Categoria {
 	DESEMPREGADO("Desempregado", Desempregado.class);
 	
 	private String descricao;
-	private Class classe;
+	private Class<?> classe;
 	
-	private Categoria(String descricao, Class classe) {
+	private Categoria(String descricao, Class<?> classe) {
 		this.descricao = descricao;
 		this.classe = classe;
 	}
