@@ -8,7 +8,8 @@ public enum Regra {
 	R('R', "O Benefício será de 10 meses para empregadores com até 10 funcionários."),
 	L('L', "O benefício será de 6 meses para desempregados."),
 	U('U', "O Benefício será de 3 meses para empregados."),
-	Z('Z', "O benefício de pessoas que moram no Paraná terá acréscimo de 9%.");
+	Z('Z', "O benefício de pessoas que moram no Paraná terá acréscimo de 9%."),
+	N('N', "O benefício de pessoas que moram em Santa Catarina terá acréscimo de 5%;");
 	
 	private char letra;
 	private String descricao;

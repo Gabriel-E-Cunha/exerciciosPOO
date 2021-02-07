@@ -1,0 +1,10 @@
+Trabalho feito em TRIO:
+> Gabriel Eduardo Cunha;
+> Luiz Kischel;
+> Lucas Machado;
+
+Para rodar o programa basta executar o arquivo main.java
+
+Regras escolhidas: G,A,B,R,L,U,Z,N. Olhe o arquivo Regra.java para ver todas as regras que usamos.
+
+O trabalho está dentro da Pasta exerciciosPOO2, dentro do seguinte Repositório:

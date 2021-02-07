@@ -52,6 +52,11 @@ public class Empregado extends Beneficiario {
 			valorBeneficio *= 1.09; // Regra Z PR 18%
 		}
 		
+		if(this.getEstado().toLowerCase().equals("sc")) {
+			this.addRegraAplicada(Regra.N); 
+			valorBeneficio *= 0.05; // Regra N SC 5%
+		}
+		
 		this.setMesesBeneficio(mesesBeneficio);
 		this.setValorBeneficio(Math.round(valorBeneficio * 100.0) / 100.0);
 	}
