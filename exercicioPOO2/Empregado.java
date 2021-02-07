@@ -54,7 +54,7 @@ public class Empregado extends Beneficiario {
 		
 		if(this.getEstado().toLowerCase().equals("sc")) {
 			this.addRegraAplicada(Regra.N); 
-			valorBeneficio *= 0.05; // Regra N SC 5%
+			valorBeneficio *= 1.05; // Regra N SC 5%
 		}
 		
 		this.setMesesBeneficio(mesesBeneficio);
