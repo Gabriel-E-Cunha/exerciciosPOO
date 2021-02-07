@@ -31,7 +31,7 @@ public class main {
 			mostrarDadosBeneficiarios(beneficiarios);
 		} while(cadastrarNovoBeneficiario());
 		
-		System.out.println("Cadastro de benficiários finalizado.");
+		System.out.println("Cadastro de beneficiários finalizado.");
 	}
 	
 	public static void mostrarDadosBeneficiarios(ArrayList<Beneficiario> beneficiarios) {
